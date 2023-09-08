@@ -1283,9 +1283,8 @@ ARM Macro Assembler    Page 20
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
 interwork --depend=..\obj\startup_stm32h743xx.d -o..\obj\startup_stm32h743xx.o 
 -ID:\keil5\Packs\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32H7xx\Inc
-lude --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 537" --pre
-define="STM32H743xx SETA 1" --list=..\obj\startup_stm32h743xx.lst ..\CORE\start
-up_stm32h743xx.s
+lude --predefine="__UVISION_VERSION SETA 537" --predefine="STM32H743xx SETA 1" 
+--list=..\obj\startup_stm32h743xx.lst ..\CORE\startup_stm32h743xx.s
 
 
 
@@ -2957,4 +2956,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 3 symbols
-505 symbols in table
+504 symbols in table

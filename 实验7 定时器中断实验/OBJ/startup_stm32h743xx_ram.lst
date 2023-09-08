@@ -835,9 +835,9 @@ ARM Macro Assembler    Page 13
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
 interwork --depend=..\obj\startup_stm32h743xx_ram.d -o..\obj\startup_stm32h743x
 x_ram.o -ID:\keil5\Packs\Keil\STM32H7xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32
-H7xx\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 53
-7" --predefine="STM32H743xx SETA 1" --list=..\obj\startup_stm32h743xx_ram.lst .
-.\CORE\startup_stm32h743xx_ram.s
+H7xx\Include --predefine="__UVISION_VERSION SETA 537" --predefine="STM32H743xx 
+SETA 1" --list=..\obj\startup_stm32h743xx_ram.lst ..\CORE\startup_stm32h743xx_r
+am.s
 
 
 
@@ -2206,4 +2206,4 @@ Symbol: WWDG_IRQHandler
       At line 63 in file ..\CORE\startup_stm32h743xx_ram.s
 Comment: WWDG_IRQHandler used once
 147 symbols
-486 symbols in table
+485 symbols in table

@@ -11,11 +11,9 @@ LR_IROM1 0x08000000 0x00010000  {    ; load region size_region
   }
   
   RW_IRAM1 0x24000000 0x00080000  {
-	quicklz.o (+RO)
-	logcompress.o (+RO)
 	.ANY (+ZI +RW)
   }
- }
+}
 
 ;LR_IROM2 0x08010000 0x00010000 {
 ;  ER_IROM2 0x00000000 0x00010000{

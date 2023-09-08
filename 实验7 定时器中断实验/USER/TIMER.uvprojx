@@ -404,6 +404,11 @@
               <FileType>1</FileType>
               <FilePath>.\stm32h7xx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>jump.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\jump.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
